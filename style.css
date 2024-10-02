@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
 :root {
-    --bg-color: #000000; /* Preto */
-    --primary-color: #1f1f1f; /* Cinza escuro */
+    --bg-color: #ffeef8; /* Rosa claro */
+    --primary-color: #ffb3d1; /* Rosa médio */
     --secondary-color: #ffffff; /* Branco */
-    --accent-color: #ff4757; /* Vermelho vibrante */
-    --highlight-color: #2ed573; /* Verde claro */
+    --accent-color: #ff3d7f; /* Rosa vibrante */
+    --highlight-color: #ff6f91; /* Rosa escuro */
     --font: "Nunito", sans-serif; /* Tipografia arredondada e moderna */
 }
 
 body {
     background-color: var(--bg-color);
-    color: var(--secondary-color);
+    color: var(--accent-color);
     font-family: var(--font);
     height: 100vh;
     margin: 0;
@@ -73,7 +73,7 @@ nav a:hover {
     padding: 2rem;
     border: 2px solid var(--highlight-color);
     background-color: rgba(255, 255, 255, 0.1); /* Fundo levemente transparente */
-    color: var(--secondary-color);
+    color: var(--accent-color);
     border-radius: 10px;
 }
 
